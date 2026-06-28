@@ -28,3 +28,17 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+crash.log
+crash.*.log
+
+# Build output
+node_modules/
+.next/
+out/
